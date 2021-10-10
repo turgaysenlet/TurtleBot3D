@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find turtlebot_bringup)/launch/minimal.launch" />
+  <node pkg="kobuki_run" name="kobuki_run" type="listener.py" output="screen" />
+</launch>
